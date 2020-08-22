@@ -47,10 +47,6 @@ conference:
       given: Joaquin
       institute: Department of Electrical Engineering and Computer Science, Technical University of Berlin
       url: http://cs.tu-berlin.de/~joaquin
-    - family: Schwaighofer
-      given: Anton
-      institute: Intelligent Data Analysis Group (IDA), Fraunhofer FIRST
-      url: http://ida.first.fraunhofer.de/~anton/
   sponsors:
   - name: EU FP7 PASCAL2 Network of Excellence
     url: https://www.k4all.org/project/pascal2/
