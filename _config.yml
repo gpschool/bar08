@@ -1,0 +1,61 @@
+# Site settings
+title: Bayesian Research Kitchen
+author:
+  name: Neil D. Lawrence
+  email: 
+description: > # this means to ignore newlines until "baseurl:"
+  Gaussian Processes in Practice was a gathering of Gaussian process practitioners at Bletchley Park in the UK.
+baseurl: "/bark08" # the subpath of your site, e.g. /blog/
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: gpss
+
+url: http://gpss.cc # the base hostname & protocol for your site
+twitter_username: datascienceshef
+github_username:  gpschool
+facebook_page: gaussianprocesssummerschool
+
+ghub:
+  edit: true
+  repository: bark08
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  image: 
+  hide_tentative: true
+  logo: gpss-logo.svg
+  name: Bayesian Research Kitchen
+  short_name: BARK
+  full_name: Bayesian Research Kitchen
+  venue: The Wordsworth Hotel
+  location: Grasmere, Ambleside, Lake District, UK
+  dates:
+  - 2008-09-05
+  - 2008-09-06
+  - 2008-09-07
+  chairs:
+  - type: Organizers
+    people:
+    - family: Lawrence
+      given: Neil D.
+      institute: The University of Sheffield
+      url: http://inverseprobability.com
+    - family: Quinonero Candela
+      given: Joaquin
+      institute: Department of Electrical Engineering and Computer Science, Technical University of Berlin
+      url: http://cs.tu-berlin.de/~joaquin
+    - family: Schwaighofer
+      given: Anton
+      institute: Intelligent Data Analysis Group (IDA), Fraunhofer FIRST
+      url: http://ida.first.fraunhofer.de/~anton/
+  sponsors:
+  - name: EU FP7 PASCAL2 Network of Excellence
+    url: https://www.k4all.org/project/pascal2/
+analytics:
+  google:
+    tracking_id: UA-62991754-1
+# Build settings
+markdown: kramdown
